@@ -1,0 +1,190 @@
+/* Limit width for responsive website */
+
+@media (max-width: 854px) {
+
+    .jumbo-content h1 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .lead {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .mot {
+        font-size: 14px;
+    }
+
+    .bt-mot {
+        text-align: center;
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+        padding: 0px;
+        line-height: 50px;
+        margin: 10px 0;
+    }
+
+    .jumbotron {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .profile-info {
+        margin-top: 10px;
+        padding: 0px !important;
+    }
+}
+
+/* End of width limitation */
+
+/* Skill progress bar percentage */
+
+.java {
+    width: 85%;
+}
+
+.html-css {
+    width: 95%;
+}
+
+.js {
+    width: 65%;
+}
+
+.php {
+    width: 83%;
+}
+
+/* End of skill percentage */
+
+.clear-float {
+    clear: both;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+.cost-bg {
+    background-color: #1E1E1E;
+}
+
+.dv-padder {
+    padding: 20px 96px;
+}
+
+.nav-bt {
+    margin-left: 15px;
+}
+
+.bg-man {
+    background-image: url(../img/nate-grant-QQ9LainS6tI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px;
+    height: 650px;
+    background-attachment: fixed;
+}
+
+.jumbotron-darken {
+    width: 100%;
+    height: 650px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+}
+
+.index-4 {
+    position: relative;
+    z-index: 4;
+}
+
+.jumbo-content {
+    padding-top: 120px;
+    width: 70%;
+    margin: 0 70px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, .5);
+}
+
+.sub-link {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.sub-link:hover {
+    text-decoration: none;
+}
+
+.profile,
+.description {
+    padding: 40px 0 40px 40px;
+    height: 870px;
+}
+
+.profile-photo {
+    margin: 25px 0 28px 0;
+    float: left;
+}
+
+.profile-info {
+    padding: 2px 25px;
+    float: left;
+}
+
+.skill {
+    padding: 0;
+    list-style-type: none;
+}
+
+.skill li {
+    margin-top: 10px;
+}
+
+.skill li h4 {
+    margin-bottom: 20px;
+}
+
+/* custom bg color */
+
+.bg-purple {
+    background-color: #800080;
+}
+
+.lh-content h4:first-child {
+    margin: 25px 0 13px 0;
+}
+
+.portofolio-container {
+    overflow: auto;
+    background-color: purple;
+    width: 1000px;
+    height: 400px;
+}
+
+.cr {
+    margin: 40px 0 28px 0;
+}
+
+.cb-color {
+    color: white;
+    background-color: #141042;
+}
+
+.height-static-330 {
+    height: 330px;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #1E1E1E;
+}
